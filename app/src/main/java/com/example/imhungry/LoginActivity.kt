@@ -1,12 +1,13 @@
-package com.example.myapplication
+package com.example.imhungry
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.imhungry.R
 
-class MainActivity : AppCompatActivity() {
+class LoginActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_hungry_login)
     }
+
+
 }
