@@ -61,7 +61,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/username" />
-
+    <TextView
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="24dp"
+        android:text="Forget password ?"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/login"
+        />
     <Button
         android:id="@+id/login"
         android:layout_width="wrap_content"
@@ -80,7 +90,13 @@
         android:textColor="@color/white"
         android:background="@color/colorPrimary"
         app:layout_constraintVertical_bias="0.2" />
-
+    <TextView
+        android:text="ODDS"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
     <ProgressBar
         android:id="@+id/loading"
         android:layout_width="wrap_content"
